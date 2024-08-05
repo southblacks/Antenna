@@ -11,7 +11,7 @@ proxies = {
 
 }
 ###改成你自己的cookie 自行从https://njav.tv/zh上获取
-cookie = '_ga=GA1.1.1577869706.1722549271; dom3ic8zudi28v8lr6fgphwffqoz0j6c=e60405cc-fb72-4754-97da-18eb1f6b64b3%3A2%3A1; _ga_VZGC2QQBZ8=GS1.1.1722668540.5.1.1722668549.0.0.0; __PPU_puid=7399296917985452147; UGVyc2lzdFN0b3JhZ2U=%7B%22CAIFRQ%22%3A%22ACgQOgAAAAAAAAAB%22%2C%22CAIFRT%22%3A%22ACgQOgAAAABmsFxQ%22%7D; locale=zh; session=F69uxAalO4tQB1pJkdkCUst8GSySw0gIWFmOtzVi; bnState_2031042={"impressions":3,"delayStarted":0}; x-token=7e7451de566c755867b6d8922ea5b549'
+cookie = ''
 def Get_url(name):
     url = test.Return_url(test.Receive_url(test.Search_movie(name,proxies=proxies),proxies=proxies),proxies=proxies)
     return url
